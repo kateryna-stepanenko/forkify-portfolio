@@ -1907,6 +1907,7 @@ const init = function() {
 };
 init();
 // console.log(state.bookmarks);
+//ClearBookmarks
 const clearBookmarks = function() {
     localStorage.clear("bookmarks");
 };
@@ -2537,7 +2538,7 @@ parcelHelpers.export(exports, "MODAL_CLOSE_SEC", ()=>MODAL_CLOSE_SEC);
 const API_URL = "https://forkify-api.herokuapp.com/api/v2/recipes";
 const TIMEOUT_SEC = 10;
 const RES_PER_PAGE = 10;
-const KEY = "3f6c0d46-3acd-4b13-9066-b8b2b6441e00";
+const KEY = "329d0480-0dfe-4ee6-a9ce-d0768331e0f8";
 const MODAL_CLOSE_SEC = 2.5;
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
@@ -2770,7 +2771,7 @@ class RecipeView extends (0, _viewJsDefault.default) {
 }
 exports.default = new RecipeView();
 
-},{"./View.js":"5cUXS","url:../../img/icons.svg":"loVOp","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","fracty":"hJO4d"}],"5cUXS":[function(require,module,exports) {
+},{"./View.js":"5cUXS","url:../../img/icons.svg":"loVOp","fracty":"hJO4d","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5cUXS":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _iconsSvg = require("url:../../img/icons.svg"); //Parcel 2
